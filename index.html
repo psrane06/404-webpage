@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 Not Found</title>
+    <link rel="icon" type="image/x-icon" href="./devchallenges.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      font-family: "Space Mono";
+      margin: 40px 80px;
+    }
+    .title {
+      font-family: "Inconsolata";
+      font-size: 24px;
+      line-height: 25px;
+      letter-spacing: -0.08em;
+      color: #333333;
+    }
+    .main-container {
+      display: flex;
+      max-width: 1200px;
+      margin: 70px auto;
+      justify-content: space-between;
+      align-items: center;
+    }
+    img {
+      max-width: 540px;
+      /* height: 414px; */
+    }
+    h1 {
+      max-width: 586px;
+      font-size: 64px;
+      line-height: 95px;
+      letter-spacing: -0.035em;
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    p {
+      display: block;
+      width: 381px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: -0.035em;
+      color: #4f4f4f;
+    }
+    button {
+      margin-top: 40px;
+      background: #333333;
+      color: white;
+      width: 216px;
+      height: 68px;
+    }
+
+    @media screen and (max-width: 1145px) {
+      body {
+        margin: 20px 24px;
+      }
+      .main-container {
+        flex-direction: column;
+        margin: 70px auto;
+      }
+      img {
+        max-width: 300px;
+      }
+      h1 {
+        max-width: 370px;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.04em;
+      }
+      p {
+        max-width: 330px;
+        font-size: 18px;
+        line-height: 27px;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="title">404 NOT FOUND</div>
+      <div class="main-container">
+        <img class="image" src="./Scarecrow.png" />
+        <div class="text-container">
+          <h1>I have bad news for you</h1>
+          <p>
+            The page you are looking for might be removed or is temporarily
+            unavailable
+          </p>
+          <button class="btn">BACK TO HOMEPAGE</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
